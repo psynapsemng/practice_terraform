@@ -28,7 +28,7 @@ digraph {
 ![image](https://user-images.githubusercontent.com/78550822/217252884-a1920f35-1ccb-4bf3-94b7-4404873c26fa.png)
 
 
-# terraform suplly
+# terraform apply
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
   + create
