@@ -7,5 +7,5 @@ variable "server_port" {
 variable "instancetype" {
   type = string
   description = "set aws instance type"
-  default = "t2.nano"
+  default = "t2.micro"
 }
