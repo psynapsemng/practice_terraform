@@ -27,12 +27,12 @@ digraph {
 }
 ![image](https://user-images.githubusercontent.com/78550822/217252884-a1920f35-1ccb-4bf3-94b7-4404873c26fa.png)
 
-
-# terraform apply
-
 Les lignes suivantes décrivent la ressource que Terraform va créer, une instance AWS EC2, identifiée comme « aws_instance.web_server ». Les propriétés de l'instance sont répertoriées, y compris l'Amazon Machine Image (AMI) qui sera utilisée pour lancer l'instance (ami-06cc80fe7e768f974), le type d'instance (t2.micro), la balise de nom de l'instance (WebServerInstance) .
 
 Certaines des propriétés sont indiquées comme "(connu après application)", ce qui signifie que leurs valeurs seront déterminées après la création de l'instance et que Terraform a collecté des informations à son sujet.
+
+
+# terraform apply
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:      
 
