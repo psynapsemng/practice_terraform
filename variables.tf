@@ -9,3 +9,10 @@ variable "instancetype" {
   description = "set aws instance type"
   default = "t2.micro"
 }
+
+variable "security_group_name" {
+  description = "The name of the security group"
+  type = string
+  default = "terraform-exemple-instance"
+  
+}
